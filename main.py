@@ -83,12 +83,13 @@ def tic_tac_toe():
         print()
     return board
 i=0
-while i<10:
+while i<3:
     i+=1
     x=tic_tac_toe()
     k[i]=x
-v=int(input("ENTER THE ROUND :"))
-y=k[v-1]
+u=int(input("ENTER THE ROUND :"))
+v=u-1
+y=k[u]
 print(y[0], y[1], y[2])
 print(y[3], y[4], y[5])
 print(y[6], y[7], y[8])
