@@ -83,7 +83,7 @@ def tic_tac_toe():
         print()
     return board
 i=0
-while i<3:
+while i<10:
     i+=1
     x=tic_tac_toe()
     k[i]=x
