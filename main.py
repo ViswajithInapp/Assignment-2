@@ -95,4 +95,4 @@ print(y[6], y[7], y[8])
 if(y[9]==0):
     print("PLAYER WON ROUND {}".format(v))
 else:
-    print("COMPUTER WON ROUND {}".format(v)
+    print("COMPUTER WON ROUND {}".format(v))
