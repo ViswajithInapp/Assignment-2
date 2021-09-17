@@ -88,12 +88,11 @@ while i<10:
     x=tic_tac_toe()
     k[i]=x
 u=int(input("ENTER THE ROUND :"))
-v=u-1
 y=k[u]
 print(y[0], y[1], y[2])
 print(y[3], y[4], y[5])
 print(y[6], y[7], y[8])
 if(y[9]==0):
-    print("PLAYER WON ROUND {}".format(v))
+    print("PLAYER WON ROUND {}".format(u))
 else:
-    print("COMPUTER WON ROUND {}".format(v))
+    print("COMPUTER WON ROUND {}".format(u))
