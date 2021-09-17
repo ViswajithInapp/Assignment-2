@@ -30,17 +30,16 @@ def tic_tac_toe():
 
     def choose_number():
         while True:
-            while True:
-                a = input()
-                try:
-                    a = int(a)
-                    a -= 1
-                    if a in range(0, 9):
-                        return a
-                    else:
-                        print("\nThat's not on the board. Try again")
-                        continue
-                except ValueError:
+            a = input()
+            try:
+                a = int(a)
+                a -= 1
+                if a in range(0, 9):
+                    return a
+                else:
+                    print("\nThat's not on the board. Try again")
+                    continue
+            except ValueError:
                     print("\nThat's not a number. Try again")
                     continue
 
